@@ -40,7 +40,7 @@ class DakaExtractor(BaseExtractor):
     def _process_data(self, raw_data: dict) -> list[dict[str, Any]]:
         """Procesa y normaliza los datos extraídos"""
 
-        all_products: list[dict] = raw_data.get('valor', [])
+        all_products = raw_data.get('valor', [])
         if not all_products:
             return []
 

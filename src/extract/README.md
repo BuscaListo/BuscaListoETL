@@ -23,11 +23,15 @@ extract
 │    ├── extractors/
 │    │   ├── __init__.py      
 │    │   ├── base_extractor.py          # Clase abstracta base
-│    │   ├── extractor_factory.py       # Factory para crear 
+│    │   ├── extractor_factory.py       # Factory para crear extractores
 │    │   ├── extractor_daka.py          # Extractor API Daka
-│    ├── models_config.py               
-│    ├── models_enum.py                 
-│    └── webscraping_main.py            # Módulo principal
+│    ├── models_config.py               # Configuración de extractores
+│    ├── models_enum.py                 # Enums de configuración
+│    └── webscraping_main.py            # Orquestador principal (DIP)
+├── services/
+│   ├── __init__.py
+│   ├── file_service.py              # Servicio de manejo de archivos (SRP)
+│   └── extraction_service.py        # Servicio de extracción (SRP)
 ├── .dockerignore
 ├── Dockerfile
 ├── README.md
@@ -109,3 +113,7 @@ Los datos extraídos se guardan en formato JSON:
 
 - **Proceso batch**: Extracción de datos de APIs
 - **Imagen**: Python 3.11-slim optimizada
+- **SOLID**: Principios de diseño aplicados para mejor mantenibilidad
+  - **SRP**: Cada clase tiene una sola responsabilidad
+  - **DIP**: Dependencias invertidas usando servicios
+  - **Modular**: Separación clara de responsabilidades
