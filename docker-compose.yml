@@ -1,0 +1,55 @@
+version: '3.8'
+
+services:
+  extractor:
+    build: ./src/extract
+    container_name: busca-listo-extractor
+    env_file:
+      - .env
+    environment:
+      - PYTHONPATH=/app
+      - ETL_PROJECT_PATH=/app
+      - DATA_ETL=data
+      - DOCKER_ENV=true
+    volumes:
+      - ./data:/app/data
+    networks:
+      - busca-listo-network
+
+  transformer:
+    build: ./src/transform
+    container_name: busca-listo-transformer
+    env_file:
+      - .env
+    environment:
+      - PYTHONPATH=/app
+      - ETL_PROJECT_PATH=/app
+      - DATA_ETL=data
+      - DOCKER_ENV=true
+    volumes:
+      - ./data:/app/data
+    networks:
+      - busca-listo-network
+    depends_on:
+      - extractor
+
+  loader:
+    build: ./src/load
+    container_name: busca-listo-loader
+    env_file:
+      - .env
+    environment:
+      - PYTHONPATH=/app
+      - ETL_PROJECT_PATH=/app
+      - DATA_ETL=data
+      - DOCKER_ENV=true
+    volumes:
+      - ./data:/app/data
+    networks:
+      - busca-listo-network
+    depends_on:
+      - transformer
+
+networks:
+  busca-listo-network:
+    driver: bridge
