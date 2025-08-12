@@ -2,6 +2,7 @@ import logging
 from datetime import datetime
 from typing import Any
 from transformers.transformer_factory import TransformerFactory
+from formatters.formatter_factory import FormatterFactory
 from models import TransformationResult
 from services.file_service import FileService
 
@@ -68,31 +69,44 @@ class TransformationService:
         )
     
     def _save_transformation_result(self, result: TransformationResult, source: str):
-        """Guarda los resultados de la transformación"""
+        """Guarda los resultados de la transformación usando formatters"""
         today = datetime.now().strftime('%Y_%m_%d')
         
-        # Guardar JSON completo
-        json_filename = f"{source.lower()}_transformed_{today}.json"
-        data_to_save = result.model_dump() if hasattr(result, 'model_dump') else result
-        json_path = self.file_service.save_json(data_to_save, json_filename)
+        # Crear formatter para productos
+        formatter = FormatterFactory.create_formatter('product')
         
+        # Preparar datos de productos para formateo
+        products_data = []
+        for product in result.products:
+            product_dict = product.model_dump() if hasattr(product, 'model_dump') else product
+            products_data.append(product_dict)
+        
+        # Guardar JSON completo usando formatter
+        json_filename = f"{source.lower()}_transformed_{today}.json"
+        formatted_json = formatter.format_to_json(products_data)
+        
+        # Añadir metadatos de transformación al JSON
+        complete_data = {
+            "transformation_metadata": {
+                "source": result.source,
+                "total_records": result.total_records,
+                "valid_records": result.valid_records,
+                "invalid_records": result.invalid_records,
+                "errors": result.errors,
+                "processed_at": result.processed_at.isoformat() if hasattr(result.processed_at, 'isoformat') else str(result.processed_at)
+            },
+            "formatted_data": formatted_json
+        }
+        
+        json_path = self.file_service.save_json(complete_data, json_filename)
         logger.info(f"Datos transformados guardados: {json_path} ({result.valid_records} registros válidos)")
         
-        # Guardar CSV para analistas (sin raw_data)
+        # Guardar CSV para analistas usando formatter
         if result.products:
             csv_filename = f"{source.lower()}_products_{today}.csv"
-            products_data = self._prepare_csv_data(result.products)
-            csv_path = self.file_service.save_csv(products_data, csv_filename)
-            logger.info(f"CSV para analistas guardado: {csv_path} ({len(products_data)} productos)")
+            csv_data = formatter.format_to_csv(products_data)
+            csv_path = self.file_service.save_csv(csv_data, csv_filename)
+            logger.info(f"CSV para analistas guardado: {csv_path} ({len(csv_data)} productos)")
         else:
             logger.warning(f"No se generó CSV - no hay productos válidos para {source}")
     
-    def _prepare_csv_data(self, products: list) -> list[dict[str, Any]]:
-        """Prepara datos para CSV excluyendo raw_data"""
-        products_data = []
-        for product in products:
-            product_dict = product.model_dump() if hasattr(product, 'model_dump') else product
-            # Remover raw_data para el CSV
-            product_dict.pop('raw_data', None)
-            products_data.append(product_dict)
-        return products_data

@@ -12,7 +12,8 @@ Proceso de transformación de datos extraídos al formato estándar para su post
 - [Validaciones Automáticas](#validaciones-automáticas)
 - [Formatos de Archivo Soportados](#formatos-de-archivo-soportados)
 - [Uso Factory Pattern](#uso-factory-pattern)
-- [Agregar nuevo transformador](#agregar-nuevo-transformador)
+- [Sistema de Formatters](#sistema-de-formatters)
+- [Extensibilidad](#extensibilidad)
 - [Ejecutar](#ejecutar)
 - [Microservicio](#microservicio)
 
@@ -28,6 +29,11 @@ transform/
 │   ├── transformer_factory.py       # Factory para crear transformadores
 │   ├── transformer_daka.py          # Transformador para Daka
 │   └── transformer_farmatodo.py     # Transformador para Farmatodo
+├── formatters/
+│   ├── __init__.py
+│   ├── base_formatter.py            # Clase abstracta base (SRP)
+│   ├── formatter_factory.py         # Factory para crear formatters (OCP)
+│   └── product_formatter.py         # Formatter para ProductModel
 ├── services/
 │   ├── __init__.py
 │   ├── file_service.py              # Servicio de manejo de archivos (SRP)
@@ -149,6 +155,8 @@ FileExtension.get_supported_formats()  # [".json", ".csv", ".xlsx", ".xls"]
 
 ## Uso Factory Pattern
 
+### Transformadores (por fuente de datos)
+
 ```python
 from transformers.transformer_factory import TransformerFactory
 from constants import DataSource
@@ -167,10 +175,96 @@ print(f"Errores: {result.errors}")
 transformers = TransformerFactory.create_all_transformers()
 ```
 
-## Agregar nuevo transformador
+## Sistema de Formatters
+
+El sistema de formatters separa la lógica de formateo de datos por modelo de salida, siguiendo el principio de responsabilidad única (SRP) y permitiendo extensibilidad futura.
+
+### Uso Básico
+
+```python
+from formatters.formatter_factory import FormatterFactory
+
+# Crear formatter para modelo específico
+formatter = FormatterFactory.create_formatter('product')
+
+# Formatear datos a JSON con metadatos
+products_data = [product.model_dump() for product in result.products]
+json_output = formatter.format_to_json(products_data)
+
+# Formatear datos a CSV para analistas (sin raw_data)
+csv_output = formatter.format_to_csv(products_data)
+
+print(f"JSON generado con {json_output['total_products']} productos")
+print(f"CSV generado con {len(csv_output)} registros")
+```
+
+### Verificar Modelos Disponibles
+
+```python
+# Obtener lista de modelos soportados
+available_models = FormatterFactory.get_available_models()
+print(f"Modelos disponibles: {available_models}")
+
+# Verificar si un modelo está soportado
+if FormatterFactory.is_model_supported('product'):
+    formatter = FormatterFactory.create_formatter('product')
+```
+
+### Crear Todos los Formatters
+
+```python
+# Útil para procesamiento batch o inicialización
+all_formatters = FormatterFactory.create_all_formatters()
+
+for model_name, formatter in all_formatters.items():
+    print(f"Formatter {formatter.get_formatter_name()} para modelo {model_name}")
+```
+
+### Estructura de Salida
+
+#### JSON Formateado
+```json
+{
+  "model": "ProductModel",
+  "total_products": 35,
+  "products": [
+    {
+      "source": "daka",
+      "product_id": "LB-00001632",
+      "name": "MICROONDA 1.1 PIE CNEGRO WM1711D WHIRLPOOL",
+      "price": 250.0,
+      "price_type": "USD"
+    }
+  ],
+  "metadata": {
+    "format": "json",
+    "version": "1.0",
+    "fields": ["source", "product_id", "name", ...]
+  }
+}
+```
+
+#### CSV Formateado
+- Excluye automáticamente el campo `raw_data`
+- Mantiene todos los demás campos del modelo
+- Optimizado para análisis en Excel/Google Sheets
+
+### Manejo de Errores
+
+```python
+try:
+    formatter = FormatterFactory.create_formatter('modelo_inexistente')
+except ValueError as e:
+    print(f"Error: {e}")
+    # Output: Error: Formatter for model 'modelo_inexistente' not found. 
+    #         Available models: product, productmodel
+```
+
+## Extensibilidad
+
+### Agregar nuevo transformador (por fuente)
 
 1. **Agregar fuente al enum**:
-
 ```python
 # constants.py
 class DataSource(str, Enum):
@@ -180,55 +274,119 @@ class DataSource(str, Enum):
 ```
 
 2. **Crear clase transformador**:
-
 ```python
 from transformers.base_transformer import BaseTransformer
-from models import TransformationResult
-from constants import DataSource
 
 class NuevoTransformer(BaseTransformer):
     def transform_data(self, raw_data):
-        valid_products = []
-        errors = []
-        
-        for i, item in enumerate(raw_data):
-            try:
-                transformed_item = {
-                    'source': DataSource.NUEVO,
-                    'product_id': item.get('id'),
-                    'name': item.get('titulo'),
-                    'address': None,
-                    'phone': None,
-                    'price_type': 'USD',
-                    'raw_data': item
-                }
-                product = self.create_product_model(transformed_item)
-                valid_products.append(product)
-            except Exception as e:
-                errors.append(f"Error en registro {i}: {str(e)}")
-        
-        return TransformationResult(
-            source=DataSource.NUEVO,
-            total_records=len(raw_data),
-            valid_records=len(valid_products),
-            invalid_records=len(raw_data) - len(valid_products),
-            products=valid_products,
-            errors=errors
-        )
+        # Lógica de transformación específica por fuente
+        pass
     
     def get_transformer_name(self):
         return "Nuevo"
 ```
 
 3. **Registrar en factory**:
-
 ```python
 # transformer_factory.py
-_transformers = {
-    DataSource.DAKA: DakaTransformer,
-    DataSource.FARMATODO: FarmatodoTransformer,
-    DataSource.NUEVO: NuevoTransformer,  # Agregar aquí
-}
+_transformers[DataSource.NUEVO] = NuevoTransformer
+```
+
+### Agregar nuevo formatter (por modelo)
+
+1. **Crear clase formatter**:
+```python
+from formatters.base_formatter import BaseFormatter
+
+class InventoryFormatter(BaseFormatter):
+    """
+    Formatter para modelo de inventario.
+    
+    Maneja formateo de datos de inventario a diferentes
+    formatos de salida (JSON, CSV, etc.).
+    """
+    
+    def __init__(self) -> None:
+        """Inicializar InventoryFormatter."""
+        super().__init__("InventoryModel")
+    
+    def format_to_json(self, data: list[dict[str, Any]]) -> dict[str, Any]:
+        """Formatear datos de inventario a JSON."""
+        return {
+            "model": self.model_name,
+            "total_items": len(data),
+            "inventory_items": data,
+            "metadata": {
+                "format": "json",
+                "version": "1.0",
+                "fields": ["item_id", "quantity", "location"]
+            }
+        }
+    
+    def format_to_csv(self, data: list[dict[str, Any]]) -> list[dict[str, Any]]:
+        """Formatear datos de inventario a CSV."""
+        # Remover campos complejos para CSV
+        csv_data = []
+        for item in data:
+            csv_item = {k: v for k, v in item.items() if k != 'metadata'}
+            csv_data.append(csv_item)
+        return csv_data
+    
+    def get_formatter_name(self) -> str:
+        """Obtener nombre del formatter."""
+        return "InventoryFormatter"
+```
+
+2. **Registrar dinámicamente (Open/Closed Principle)**:
+```python
+# Registro dinámico - no requiere modificar FormatterFactory
+FormatterFactory.register_formatter('inventory', InventoryFormatter)
+
+# Verificar registro exitoso
+if FormatterFactory.is_model_supported('inventory'):
+    inventory_formatter = FormatterFactory.create_formatter('inventory')
+    print(f"Formatter registrado: {inventory_formatter.get_formatter_name()}")
+```
+
+3. **Uso del nuevo formatter**:
+```python
+# Crear formatter para inventario
+inventory_formatter = FormatterFactory.create_formatter('inventory')
+
+# Formatear datos
+inventory_data = [{"item_id": "INV001", "quantity": 100, "location": "A1"}]
+json_output = inventory_formatter.format_to_json(inventory_data)
+csv_output = inventory_formatter.format_to_csv(inventory_data)
+```
+
+### Ejemplo Completo de Extensión
+
+```python
+# 1. Definir nuevo modelo Pydantic
+class InventoryModel(BaseModel):
+    item_id: str
+    quantity: int
+    location: str
+    last_updated: datetime = Field(default_factory=datetime.now)
+
+# 2. Crear formatter personalizado
+class InventoryFormatter(BaseFormatter):
+    # ... implementación completa arriba ...
+
+# 3. Registrar y usar
+FormatterFactory.register_formatter('inventory', InventoryFormatter)
+formatter = FormatterFactory.create_formatter('inventory')
+
+# 4. Integrar en el pipeline ETL
+class InventoryTransformationService(TransformationService):
+    def _save_transformation_result(self, result, source):
+        # Usar formatter específico según el tipo de datos
+        if source == 'inventory_source':
+            formatter = FormatterFactory.create_formatter('inventory')
+        else:
+            formatter = FormatterFactory.create_formatter('product')
+        
+        # Continuar con lógica de guardado...
 ```
 
 ## Ejecutar
@@ -277,7 +435,7 @@ docker run --name transformer \
 - Lee archivos de: `{ETL_PROJECT_PATH}/{DATA_ETL}/extract/`
 - **Formatos soportados**: JSON, CSV, Excel (.xlsx, .xls)
 - Formato de nombre: `{source}_YYYY_MM_DD.{extension}`
-- Ejemplos: 
+- Ejemplos:
   - `daka_2025_01_09.json`
   - `farmatodo_2025_01_09.csv`
   - `nueva_fuente_2025_01_09.xlsx`
@@ -306,5 +464,9 @@ docker run --name transformer \
 - **Consistencia**: Constantes centralizadas para mantenimiento
 - **SOLID**: Principios de diseño aplicados para mejor mantenibilidad
   - **SRP**: Cada clase tiene una sola responsabilidad
+  - **OCP**: Abierto para extensión, cerrado para modificación
   - **DIP**: Dependencias invertidas usando servicios
-  - **Modular**: Separación clara de responsabilidades
+  - **Factory Pattern**: Creación centralizada de transformadores y formatters
+- **PEP 8**: Estándares de codificación Python aplicados
+- **Documentación**: Docstrings completos siguiendo estándares Python
+- **Extensibilidad**: Sistema preparado para múltiples modelos y formatos
