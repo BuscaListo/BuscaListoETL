@@ -1,0 +1,314 @@
+{
+    "farmacias_nuevo_siglo": {
+        "sucursales": {
+            "valera_edivica": {
+                "direccion": {
+                    "ubicacion": "Valera - C.C. Edivica I",
+                    "descripcion": "Avenida 9 Con Calle 8 Centro Comercial Edivica I, Local Nro. 1",
+                    "telefono": "+58-271-2219280"
+                },
+                "productos": [
+                    {
+                        "tipo": "Vitamina D",
+                        "necesario_recipe_medico": false,
+                        "nombre": "Calcibon Natal Forte X 30 Tab Konsuma",
+                        "views": 100,
+                        "oferta": false,
+                        "precio": {
+                            "bs_sin_oferta": "1542.90",
+                            "bs_con_oferta": null,
+                            "dls": "11.37"
+                        },
+                        "disponible": true,
+                        "detalles": "Suplemento Alimenticio De Calcio",
+                        "compuesto": "Citrato De Calcio Vi",
+                        "imagen": [
+                            "https://www.farmaciasnuevosiglo.com/img/articulos/ab6c55bc-1305-4e73-bd77-348cbe71bb4e.png"
+                        ],
+                        "oferta_disponible_hasta": null,
+                        "url": "https://www.farmaciasnuevosiglo.com/Articulos/Index/05e4e679-61c8-4fc9-a926-a95007ce19cf"
+                    },
+                    {
+                        "tipo": "Analgésicos",
+                        "necesario_recipe_medico": true,
+                        "nombre": "Acetaminofen-tramad 325/37.5mg X 10 Calo",
+                        "views": 75,
+                        "oferta": false,
+                        "precio": {
+                            "bs_sin_oferta": "504.90",
+                            "bs_con_oferta": null,
+                            "dls": "3.72"
+                        },
+                        "disponible": true,
+                        "detalles": "Analgésico Potente",
+                        "compuesto": "Acetaminofen/tramado",
+                        "imagen": [
+                            "https://www.farmaciasnuevosiglo.com/img/articulos/8751041d-c1ae-4f8a-a318-e224e83ee08f.png"
+                        ],
+                        "oferta_disponible_hasta": null,
+                        "url": "https://www.farmaciasnuevosiglo.com/Articulos/Index/8751041d-c1ae-4f8a-a318-e224e83ee08f"
+                    },
+                    {
+                        "tipo": "Antialérgicos",
+                        "necesario_recipe_medico": false,
+                        "nombre": "Loratadina 10 Mg X 10 Tab La Sante",
+                        "oferta": true,
+                        "precio": {
+                            "bs_sin_oferta": "144.90",
+                            "bs_con_oferta": "139.90",
+                            "dls": "1.03"
+                        },
+                        "disponible": true,
+                        "detalles": "Antihistamínico",
+                        "compuesto": "Loratadina",
+                        "imagen": [
+                            "https://www.farmaciasnuevosiglo.com/img/articulos/f5dbac29-a87c-41ee-9ad3-8e75b8ec300d.png"
+                        ],
+                        "oferta_disponible_hasta": "18/08/2025",
+                        "url": "https://www.farmaciasnuevosiglo.com/articulos?id=f5dbac29-a87c-41ee-9ad3-8e75b8ec300d"
+                    },
+                    {
+                        "tipo": "Esteroides",
+                        "necesario_recipe_medico": false,
+                        "nombre": "Dexametasona 8 Mg/2 Ml X 1 Amp Global",
+                        "oferta": true,
+                        "precio": {
+                            "bs_sin_oferta": "57.90",
+                            "bs_con_oferta": "49.90",
+                            "dls": "0.37"
+                        },
+                        "disponible": true,
+                        "detalles": "Corticosteroide",
+                        "compuesto": "Dexametasona",
+                        "imagen": [
+                            "https://www.farmaciasnuevosiglo.com/img/articulos/c907a69f-8674-46f8-b3de-d19cb3326129.png"
+                        ],
+                        "oferta_disponible_hasta": "18/08/2025",
+                        "url": "https://www.farmaciasnuevosiglo.com/articulos?id=c907a69f-8674-46f8-b3de-d19cb3326129"
+                    },
+                    {
+                        "tipo": "Antibióticos",
+                        "necesario_recipe_medico": false,
+                        "nombre": "Amoxicilina 250 Mg / 45ml Lister Fenix",
+                        "oferta": true,
+                        "precio": {
+                            "bs_sin_oferta": "351.90",
+                            "bs_con_oferta": null,
+                            "dls": "2.59"
+                        },
+                        "disponible": true,
+                        "detalles": "Antibiótico",
+                        "compuesto": "Amoxicilina",
+                        "imagen": [
+                            "https://www.farmaciasnuevosiglo.com/img/articulos/64b1735f-07d3-4585-b73b-878a8778c3ab.png"
+                        ],
+                        "oferta_disponible_hasta": false,
+                        "url": "https://www.farmaciasnuevosiglo.com/Articulos/Index/64b1735f-07d3-4585-b73b-878a8778c3ab"
+                    }
+                ]
+            }
+        }
+    },
+    "farmatodo": {
+        "sucursales": {
+            "valera_trujillo": {
+                "direccion": {
+                    "ciudad": "Valera",
+                    "ubicacion": "Trujillo - Trujillo",
+                    "descripcion": "AV. 9 CON CALLE 8"
+                },
+                "productos": [
+                    {
+                        "tipo": "Vitamina D",
+                        "necesario_recipe_medico": false,
+                        "nombre": "Calcibon Supra 30tabletas Calcio Citrato-Vit D3 Farma",
+                        "views": 50,
+                        "oferta": true,
+                        "precio": {
+                          "bs_sin_oferta": "1871.60",
+                          "bs_con_oferta": "1590.86",
+                          "dls": null
+                        },
+                        "disponible": false,
+                        "detalles": "Medicamentos",
+                        "compuesto": "",
+                        "imagen": [
+                          "https://lh3.googleusercontent.com/EbN5ns7PQSRoqb5ANQaPw5szk_L6KCCweH3UsAm9NVaLQoLb5RH2qfx1Z1z6IzhulkZZaEayRW_7P6FEo0F82PNZT9M3pqJj9qHI77D-0Qu0sb_s"
+                        ],
+                        "oferta_disponible_hasta": null,
+                        "url": "https://www.farmatodo.com.ve/producto/113249355-calcio--vitamina-d--vitamina-k--magnesio-calcibon-supra-30-tabletas"
+                      },
+                      {
+                        "tipo": "Vitamina D",
+                        "necesario_recipe_medico": false,
+                        "nombre": "Vitamina D Farma D 2000Ui Laboratorios Farma Caja x 30 Tabletas",
+                        "oferta": true,
+                        "precio": {
+                          "bs_sin_oferta": "759.94",
+                          "bs_con_oferta": "894.05",
+                          "dls": null
+                        },
+                        "disponible": true,
+                        "detalles": "Vitaminas",
+                        "compuesto": "2000 UI Vitamina D",
+                        "imagen": [
+                          "https://lh3.googleusercontent.com/jQkeFMDQ9X5eTcvBrWCs4w68cRD9U6PajjXswWBYp7PBTcyxvobvhynzL8mhao30c81cR1yUw6Jt3bpjJDsKiW-FpDRZ9lR8XG8",
+                          "https://lh3.googleusercontent.com/ul6sDg8l8FQMHXEXiKZgr5wNT8XZkWAyIetre9cyyF8jXsPGyneu_xVuuVuv3COlwguL39I0xbQErIral9s7YOe-sVv3z20wzpKwxjqUUbRBqO8z"
+                        ],
+                        "oferta_disponible_hasta": null,
+                        "url": "https://www.farmatodo.com.ve/producto/112474358-vitamina-d-farma-d-2000ui-30tabletas-farma"
+                      }                      
+                ]
+            }
+        }
+    },
+    "farmabien": {
+        "sucursales": {
+            "bocono": {
+                "direccion": {
+                    "latitude": "9.25093",
+                    "longitude": "-70.2533",
+                    "telefono": null
+                },
+                "productos": [
+                    {
+                        "tipo": "Vitamina D",
+                        "necesario_recipe_medico": false,
+                        "nombre": "HENOVIC 30ML GOTAS",
+                        "oferta": false,
+                        "precio": {
+                            "bs_sin_oferta": "1117.81",
+                            "bs_con_oferta": null,
+                            "dls": null
+                        },
+                        "disponible": true,
+                        "detalles": "Suplemento de Vitamina D en gotas",
+                        "compuesto": "Vitamina D",
+                        "imagen": [
+                            "https://cdn.farmabien.com/web/media/202404/file_1712501225238_HENOVIC_30ML%20GOTAS.png"
+                        ],
+                        "oferta_disponible_hasta": null,
+                        "url": "https://www.farmabien.com/producto/7592349722963"
+                    },
+                    {
+                        "tipo": "Antibióticos",
+                        "necesario_recipe_medico": true,
+                        "nombre": "LEVOFLOXACINA 750MG X 5TAB CALOX",
+                        "oferta": false,
+                        "precio": {
+                            "bs_sin_oferta": "1173.59",
+                            "bs_con_oferta": null,
+                            "dls": null
+                        },
+                        "disponible": true,
+                        "detalles": "Antibiótico de amplio espectro en tabletas",
+                        "compuesto": "Levofloxacina",
+                        "imagen": [
+                            "https://cdn.farmabien.com/web/media/202403/file_1709825217247_LEVOFLOXACINA_750MG%20X%205TAB%20CALOX.png"
+                        ],
+                        "oferta_disponible_hasta": null,
+                        "url": "https://www.farmabien.com/producto/7591519317329"
+                    }                    
+                ]
+            },
+            "valera_los_ilustres": {
+                "direccion": {
+                    "latitude": "9.29386",
+                    "longitude": "-70.6195",
+                    "telefono": "0278- 3325066"
+                },
+                "productos": [
+                    {
+                      "tipo": "Vitamina D",
+                      "necesario_recipe_medico": false,
+                      "nombre": "HENOVIC 30ML GOTAS",
+                      "oferta": false,
+                      "precio": {
+                        "bs_sin_oferta": "1117.81",
+                        "bs_con_oferta": null,
+                        "dls": null
+                      },
+                      "disponible": true,
+                      "detalles": null,
+                      "compuesto": null,
+                      "imagen": [
+                        "https://www.farmabien.com/_next/image?url=https%3A%2F%2Fcdn.farmabien.com%2Fweb%2Fmedia%2F202404%2Ffile_1712501225238_HENOVIC_30ML%20GOTAS.png&w=256&q=75"
+                      ],
+                      "oferta_disponible_hasta": null,
+                      "url": "https://www.farmabien.com/producto/7592349722963"
+                    },
+                    {
+                      "tipo": "Analgésicos",
+                      "necesario_recipe_medico": false,
+                      "nombre": "TACHIPIRIN FORTE 160MG/15ML X 120ML",
+                      "oferta": false,
+                      "precio": {
+                        "bs_sin_oferta": "400.12",
+                        "bs_con_oferta": null,
+                        "dls": null
+                      },
+                      "disponible": true,
+                      "detalles": null,
+                      "compuesto": null,
+                      "imagen": [
+                        "https://www.farmabien.com/_next/image?url=https%3A%2F%2Fcdn.farmabien.com%2Fweb%2Fmedia%2F202403%2Ffile_1711119104385_TACHIPIRIN_FORTE%20160M15ML%20X%20120ML.png&w=256&q=75"
+                      ],
+                      "oferta_disponible_hasta": null,
+                      "url": "https://www.farmabien.com/producto/7591062017301"
+                    },
+                    {
+                      "tipo": "Antialérgicos",
+                      "necesario_recipe_medico": false,
+                      "nombre": "DESLORATADINA 5MG X 10TAB CALOX",
+                      "oferta": false,
+                      "precio": {
+                        "bs_sin_oferta": "321.59",
+                        "bs_con_oferta": null,
+                        "dls": null
+                      },
+                      "disponible": true,
+                      "detalles": null,
+                      "compuesto": null,
+                      "imagen": [
+                        "https://www.farmabien.com/_next/image?url=https%3A%2F%2Fcdn.farmabien.com%2Fweb%2Fmedia%2F202403%2Ffile_1709739763460_DESLORATADINA_5MG%20X%2010TAB%20CALOX.png&w=256&q=75"
+                      ],
+                      "oferta_disponible_hasta": null,
+                      "url": "https://www.farmabien.com/producto/7591519008210"
+                    }
+                  ]
+                  
+            },
+            "san_saul_ca": {
+                "direccion": {
+                    "latitude": "10.6199",
+                    "longitude": "-71.8403",
+                    "telefono": "02622432537"
+                },
+                "productos": [
+                    {
+                        "tipo": "Vitamina D",
+                        "necesario_recipe_medico": false,
+                        "nombre": "CALCIBON D X 30TAB",
+                        "views": 25,
+                        "oferta": false,
+                        "precio": {
+                          "bs_sin_oferta": "1475.89",
+                          "bs_con_oferta": null,
+                          "dls": null
+                        },
+                        "disponible": true,
+                        "detalles": null,
+                        "compuesto": "Citrato De Calcio Vi",
+                        "imagen": [
+                          "https://www.farmabien.com/_next/image?url=https%3A%2F%2Fcdn.farmabien.com%2Fweb%2Fmedia%2F202408%2Ffile_1724334954546_thumbnail_cacibon-D-30-cap_-%20copia%20-%20copia%20-%20copia.png&w=256&q=75"
+                        ],
+                        "oferta_disponible_hasta": null,
+                        "url": "https://www.farmabien.com/producto/7591821101029"
+                      }
+                      
+                ]
+
+            }
+        }
+    }
+}

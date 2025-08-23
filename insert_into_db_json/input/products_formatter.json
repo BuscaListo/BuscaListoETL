@@ -1,0 +1,827 @@
+[
+  {
+    "nombre_producto": "Vitamina D Plus",
+    "descripcion": "Suplemento de vitamina D para fortalecer huesos y sistema inmunológico",
+    "views": 15,
+    "precio_bs": 820.50,
+    "disponible": true,
+    "sub_categoria": "Vitaminas",
+    "marca": "Laboratorios Farma",
+    "Sucursal": "Farmatodo Centro de Valera",
+    "imagen": [
+      "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dml0YW1pbiUyMGR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1551183053-bf91a1d81141?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dml0YW1pbnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+    ],
+    "url": "https://www.farmatodo.com.ve/producto/vitamina-d-plus"
+  },
+  {
+    "nombre_producto": "Paracetamol 500mg",
+    "descripcion": "Analgésico y antipirético para alivio del dolor y fiebre",
+    "views": 45,
+    "precio_bs": 350.75,
+    "disponible": true,
+    "sub_categoria": "Analgésicos",
+    "marca": "Calox",
+    "Sucursal": "Farmatodo Centro de Valera",
+    "imagen": [
+      "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGFyYWNldGFtb2x8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bWVkaWNpbmV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+    ],
+    "url": "https://www.farmatodo.com.ve/producto/paracetamol-500mg"
+  },
+  {
+    "nombre_producto": "Amoxicilina 250mg",
+    "descripcion": "Antibiótico de amplio espectro para infecciones bacterianas",
+    "views": 32,
+    "precio_bs": 680.25,
+    "disponible": true,
+    "sub_categoria": "Antibióticos",
+    "marca": "La Sante",
+    "Sucursal": "Farmatodo Centro de Valera",
+    "imagen": [
+      "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YW1veGljaWxpbmF8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YW50aWJpb3RpY3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    ],
+    "url": "https://www.farmatodo.com.ve/producto/amoxicilina-250mg"
+  },
+  {
+    "nombre_producto": "Jarabe para la Tos",
+    "descripcion": "Alivia la tos seca y productiva con efecto expectorante",
+    "views": 28,
+    "precio_bs": 420.00,
+    "disponible": true,
+    "sub_categoria": "Antigripales",
+    "marca": "Generico",
+    "Sucursal": "Farmatodo Centro de Valera",
+    "imagen": [
+      "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y291Z2glMjBzeXJ1cHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Z3JpcGV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+    ],
+    "url": "https://www.farmatodo.com.ve/producto/jarabe-para-la-tos"
+  },
+  {
+    "nombre_producto": "Metformina 850mg",
+    "descripcion": "Medicamento para el control de la diabetes tipo 2",
+    "views": 18,
+    "precio_bs": 550.80,
+    "disponible": true,
+    "sub_categoria": "Medicamentos crónicos",
+    "marca": "Laboratorios Farma",
+    "Sucursal": "Farmatodo Centro de Valera",
+    "imagen": [
+      "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGlhYmV0ZXMlMjBtZWRpY2F0aW9ufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2hyb25pYyUyMGRpc2Vhc2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+    ],
+    "url": "https://www.farmatodo.com.ve/producto/metformina-850mg"
+  },
+  {
+    "nombre_producto": "Filtro de Aceite para Toyota",
+    "descripcion": "Filtro de aceite original para modelos Toyota Corolla 2010-2015",
+    "views": 67,
+    "precio_bs": 1250.00,
+    "disponible": true,
+    "sub_categoria": "Repuestos automotrices",
+    "marca": "Generico",
+    "Sucursal": "Tiendas Daka Valera",
+    "imagen": [
+      "https://images.unsplash.com/photo-1563720223880-4d93eef1f1c2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8b2lsJTIwZmlsdGVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1563720223880-4d93eef1f1c2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YXV0byUyMHBhcnRzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+    ],
+    "url": "https://www.tiendasdaka.com.ve/producto/filtro-aceite-toyota"
+  },
+  {
+    "nombre_producto": "Resistencia para Horno",
+    "descripcion": "Resistencia eléctrica universal para hornos de cocina",
+    "views": 23,
+    "precio_bs": 980.50,
+    "disponible": true,
+    "sub_categoria": "Repuestos de electrodomésticos",
+    "marca": "Generico",
+    "Sucursal": "Tiendas Daka Valera",
+    "imagen": [
+      "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8b3ZlbiUyMHBhcnR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YXBwbGlhbmNlJTIwcGFydHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    ],
+    "url": "https://www.tiendasdaka.com.ve/producto/resistencia-horno"
+  },
+  {
+    "nombre_producto": "Samsung Galaxy S21",
+    "descripcion": "Smartphone Android con 128GB de almacenamiento, 5G y cámara de 64MP",
+    "views": 89,
+    "precio_bs": 4500.00,
+    "disponible": true,
+    "sub_categoria": "Smartphones",
+    "marca": "Samsung",
+    "Sucursal": "Tiendas Daka Valera",
+    "imagen": [
+      "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2Ftc3VuZyUyMHBob25lfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c21hcnRwaG9uZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    ],
+    "url": "https://www.tiendasdaka.com.ve/producto/samsung-galaxy-s21"
+  },
+  {
+    "nombre_producto": "Hamburguesa Clásica",
+    "descripcion": "Hamburguesa de res con queso, lechuga, tomate y salsa especial",
+    "views": 120,
+    "precio_bs": 350.00,
+    "disponible": true,
+    "sub_categoria": "Hamburguesas",
+    "marca": "Generico",
+    "Sucursal": "Tiendas Daka Valera",
+    "imagen": [
+      "https://images.unsplash.com/photo-1553979459-d2229ba7433b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YnVyZ2VyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1553979459-d2229ba7433b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aGFtYnVyZ3VlcnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+    ],
+    "url": "https://www.tiendasdaka.com.ve/producto/hamburguesa-clasica"
+  },
+  {
+    "nombre_producto": "Zapatos Deportivos Nike",
+    "descripcion": "Zapatillas Nike Air Max para running y entrenamiento",
+    "views": 95,
+    "precio_bs": 2800.00,
+    "disponible": true,
+    "sub_categoria": "Zapatos deportivos",
+    "marca": "Nike",
+    "Sucursal": "Tiendas Daka Valera",
+    "imagen": [
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c25lYWtlcnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bmlrZSUyMHNob2VzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+    ],
+    "url": "https://www.tiendasdaka.com.ve/producto/zapatos-nike-air-max"
+  },
+  {
+    "nombre_producto": "Vitamina D Plus",
+    "descripcion": "Suplemento de vitamina D para fortalecer huesos y sistema inmunológico",
+    "views": 15,
+    "precio_bs": 820.5,
+    "disponible": true,
+    "sub_categoria": "Vitaminas",
+    "marca": "Laboratorios Farma",
+    "Sucursal": "Farmatodo Centro de Valera",
+    "imagen": [
+      "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dml0YW1pbiUyMGR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1551183053-bf91a1d81141?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dml0YW1pbnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+    ],
+    "url": "https://www.farmatodo.com.ve/producto/vitamina-d-plus"
+  },
+  {
+    "nombre_producto": "Paracetamol 500mg",
+    "descripcion": "Analgésico y antipirético para alivio del dolor y fiebre",
+    "views": 45,
+    "precio_bs": 350.75,
+    "disponible": true,
+    "sub_categoria": "Analgésicos",
+    "marca": "Calox",
+    "Sucursal": "Farmatodo Centro de Valera",
+    "imagen": [
+      "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGFyYWNldGFtb2x8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bWVkaWNpbmV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+    ],
+    "url": "https://www.farmatodo.com.ve/producto/paracetamol-500mg"
+  },
+  {
+    "nombre_producto": "Amoxicilina 250mg",
+    "descripcion": "Antibiótico de amplio espectro para infecciones bacterianas",
+    "views": 32,
+    "precio_bs": 680.25,
+    "disponible": true,
+    "sub_categoria": "Antibióticos",
+    "marca": "La Sante",
+    "Sucursal": "Farmatodo Centro de Valera",
+    "imagen": [
+      "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YW1veGljaWxpbmF8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YW50aWJpb3RpY3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    ],
+    "url": "https://www.farmatodo.com.ve/producto/amoxicilina-250mg"
+  },
+  {
+    "nombre_producto": "Jarabe para la Tos",
+    "descripcion": "Alivia la tos seca y productiva con efecto expectorante",
+    "views": 28,
+    "precio_bs": 420.0,
+    "disponible": true,
+    "sub_categoria": "Antigripales",
+    "marca": "Generico",
+    "Sucursal": "Farmatodo Centro de Valera",
+    "imagen": [
+      "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y291Z2glMjBzeXJ1cHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Z3JpcGV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+    ],
+    "url": "https://www.farmatodo.com.ve/producto/jarabe-para-la-tos"
+  },
+  {
+    "nombre_producto": "Metformina 850mg",
+    "descripcion": "Medicamento para el control de la diabetes tipo 2",
+    "views": 18,
+    "precio_bs": 550.8,
+    "disponible": true,
+    "sub_categoria": "Medicamentos crónicos",
+    "marca": "Laboratorios Farma",
+    "Sucursal": "Farmatodo Centro de Valera",
+    "imagen": [
+      "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGlhYmV0ZXMlMjBtZWRpY2F0aW9ufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2hyb25pYyUyMGRpc2Vhc2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+    ],
+    "url": "https://www.farmatodo.com.ve/producto/metformina-850mg"
+  },
+  {
+    "nombre_producto": "Filtro de Aceite para Toyota",
+    "descripcion": "Filtro de aceite original para modelos Toyota Corolla 2010-2015",
+    "views": 67,
+    "precio_bs": 1250.0,
+    "disponible": true,
+    "sub_categoria": "Repuestos automotrices",
+    "marca": "Generico",
+    "Sucursal": "Tiendas Daka Valera",
+    "imagen": [
+      "https://images.unsplash.com/photo-1563720223880-4d93eef1f1c2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8b2lsJTIwZmlsdGVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1563720223880-4d93eef1f1c2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YXV0byUyMHBhcnRzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+    ],
+    "url": "https://www.tiendasdaka.com.ve/producto/filtro-aceite-toyota"
+  },
+  {
+    "nombre_producto": "Resistencia para Horno",
+    "descripcion": "Resistencia eléctrica universal para hornos de cocina",
+    "views": 23,
+    "precio_bs": 980.5,
+    "disponible": true,
+    "sub_categoria": "Repuestos de electrodomésticos",
+    "marca": "Generico",
+    "Sucursal": "Tiendas Daka Valera",
+    "imagen": [
+      "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8b3ZlbiUyMHBhcnR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YXBwbGlhbmNlJTIwcGFydHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    ],
+    "url": "https://www.tiendasdaka.com.ve/producto/resistencia-horno"
+  },
+  {
+    "nombre_producto": "Samsung Galaxy S21",
+    "descripcion": "Smartphone Android con 128GB de almacenamiento, 5G y cámara de 64MP",
+    "views": 89,
+    "precio_bs": 4500.0,
+    "disponible": true,
+    "sub_categoria": "Smartphones",
+    "marca": "Samsung",
+    "Sucursal": "Tiendas Daka Valera",
+    "imagen": [
+      "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2Ftc3VuZyUyMHBob25lfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c21hcnRwaG9uZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    ],
+    "url": "https://www.tiendasdaka.com.ve/producto/samsung-galaxy-s21"
+  },
+  {
+    "nombre_producto": "Hamburguesa Clásica",
+    "descripcion": "Hamburguesa de res con queso, lechuga, tomate y salsa especial",
+    "views": 120,
+    "precio_bs": 350.0,
+    "disponible": true,
+    "sub_categoria": "Hamburguesas",
+    "marca": "Generico",
+    "Sucursal": "Tiendas Daka Valera",
+    "imagen": [
+      "https://images.unsplash.com/photo-1553979459-d2229ba7433b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YnVyZ2VyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1553979459-d2229ba7433b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aGFtYnVyZ3VlcnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+    ],
+    "url": "https://www.tiendasdaka.com.ve/producto/hamburguesa-clasica"
+  },
+  {
+    "nombre_producto": "Zapatos Deportivos Nike",
+    "descripcion": "Zapatillas Nike Air Max para running y entrenamiento",
+    "views": 95,
+    "precio_bs": 2800.0,
+    "disponible": true,
+    "sub_categoria": "Zapatos deportivos",
+    "marca": "Nike",
+    "Sucursal": "Tiendas Daka Valera",
+    "imagen": [
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c25lYWtlcnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bmlrZSUyMHNob2VzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+    ],
+    "url": "https://www.tiendasdaka.com.ve/producto/zapatos-nike-air-max"
+  },
+  {
+    "nombre_producto": "Ibuprofeno 400mg",
+    "descripcion": "Antiinflamatorio no esteroideo para dolores musculares y articulares",
+    "views": 52,
+    "precio_bs": 420.5,
+    "disponible": true,
+    "sub_categoria": "Analgésicos",
+    "marca": "Calox",
+    "Sucursal": "Farmatodo Centro de Valera",
+    "imagen": [
+      "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aWJ1cHJvZmVub3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YW50aWluZmxhbWF0b3J5fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+    ],
+    "url": "https://www.farmatodo.com.ve/producto/ibuprofeno-400mg"
+  },
+  {
+    "nombre_producto": "Vitamina C 1000mg",
+    "descripcion": "Suplemento de vitamina C para fortalecer el sistema inmunológico",
+    "views": 38,
+    "precio_bs": 750.0,
+    "disponible": true,
+    "sub_categoria": "Vitaminas",
+    "marca": "Laboratorios Farma",
+    "Sucursal": "Farmatodo Centro de Valera",
+    "imagen": [
+      "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dml0YW1pbiUyMGN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1551183053-bf91a1d81141?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dml0YW1pbnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+    ],
+    "url": "https://www.farmatodo.com.ve/producto/vitamina-c-1000mg"
+  },
+  {
+    "nombre_producto": "Pastillas para la Garganta",
+    "descripcion": "Alivian el dolor e irritación de garganta con efecto refrescante",
+    "views": 41,
+    "precio_bs": 280.0,
+    "disponible": true,
+    "sub_categoria": "Antigripales",
+    "marca": "La Sante",
+    "Sucursal": "Farmatodo Centro de Valera",
+    "imagen": [
+      "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dGhyb2F0JTIwbG96ZW5nZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c29yZSUyMHRocm9hdHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    ],
+    "url": "https://www.farmatodo.com.ve/producto/pastillas-garganta"
+  },
+  {
+    "nombre_producto": "Aspirina 500mg",
+    "descripcion": "Analgésico, antipirético y antiinflamatorio para múltiples malestares",
+    "views": 47,
+    "precio_bs": 320.25,
+    "disponible": true,
+    "sub_categoria": "Analgésicos",
+    "marca": "Calox",
+    "Sucursal": "Farmatodo Centro de Valera",
+    "imagen": [
+      "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YXNwaXJpbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGFpbiUyMHJlbGllZnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    ],
+    "url": "https://www.farmatodo.com.ve/producto/aspirina-500mg"
+  },
+  {
+    "nombre_producto": "Losartán 50mg",
+    "descripcion": "Medicamento para el control de la presión arterial alta",
+    "views": 29,
+    "precio_bs": 610.0,
+    "disponible": true,
+    "sub_categoria": "Medicamentos crónicos",
+    "marca": "Laboratorios Farma",
+    "Sucursal": "Farmatodo Centro de Valera",
+    "imagen": [
+      "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Ymxvb2QlMjBwcmVzc3VyZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aHlwZXJ0ZW5zaW9ufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+    ],
+    "url": "https://www.farmatodo.com.ve/producto/losartan-50mg"
+  },
+  {
+    "nombre_producto": "Aceite de Motor 5W-30",
+    "descripcion": "Aceite sintético para motor, 5W-30, 1 litro",
+    "views": 78,
+    "precio_bs": 1450.0,
+    "disponible": true,
+    "sub_categoria": "Repuestos automotrices",
+    "marca": "Generico",
+    "Sucursal": "Tiendas Daka Valera",
+    "imagen": [
+      "https://images.unsplash.com/photo-1563720223880-4d93eef1f1c2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bW90b3IlMjBvaWx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1563720223880-4d93eef1f1c2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YXV0b21vdGl2ZSUyMGZsdWlkc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    ],
+    "url": "https://www.tiendasdaka.com.ve/producto/aceite-motor-5w30"
+  },
+  {
+    "nombre_producto": "Bujías para Motor",
+    "descripcion": "Bujías de iridio para motores de gasolina, set de 4 unidades",
+    "views": 63,
+    "precio_bs": 890.0,
+    "disponible": true,
+    "sub_categoria": "Repuestos automotrices",
+    "marca": "Generico",
+    "Sucursal": "Tiendas Daka Valera",
+    "imagen": [
+      "https://images.unsplash.com/photo-1563720223880-4d93eef1f1c2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3BhcmslMjBwbHVnc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1563720223880-4d93eef1f1c2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZW5naW5lJTIwcGFydHN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+    ],
+    "url": "https://www.tiendasdaka.com.ve/producto/bujias-motor"
+  },
+  {
+    "nombre_producto": "Ventilador para Computadora",
+    "descripcion": "Ventilador LED RGB para PC gaming, 120mm",
+    "views": 84,
+    "precio_bs": 680.0,
+    "disponible": true,
+    "sub_categoria": "Repuestos electrónicos",
+    "marca": "Generico",
+    "Sucursal": "Tiendas Daka Valera",
+    "imagen": [
+      "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGMlMjBmYW58ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y29tcHV0ZXIlMjBwYXJ0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    ],
+    "url": "https://www.tiendasdaka.com.ve/producto/ventilador-pc"
+  },
+  {
+    "nombre_producto": "Motor para Lavadora",
+    "descripcion": "Motor universal para lavadoras automáticas de 5kg",
+    "views": 37,
+    "precio_bs": 1850.0,
+    "disponible": true,
+    "sub_categoria": "Repuestos de electrodomésticos",
+    "marca": "Generico",
+    "Sucursal": "Tiendas Daka Valera",
+    "imagen": [
+      "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2FzaGluZyUyMG1hY2hpbmUlMjBtb3RvcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YXBwbGlhbmNlJTIwcmVwYWlyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+    ],
+    "url": "https://www.tiendasdaka.com.ve/producto/motor-lavadora"
+  },
+  {
+    "nombre_producto": "iPhone 13 Pro",
+    "descripcion": "Smartphone Apple iPhone 13 Pro con 256GB, triple cámara y 5G",
+    "views": 112,
+    "precio_bs": 5200.0,
+    "disponible": true,
+    "sub_categoria": "Smartphones",
+    "marca": "Apple",
+    "Sucursal": "Tiendas Daka Valera",
+    "imagen": [
+      "https://images.unsplash.com/photo-1632661674596-618e45e56c53?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aXBob25lJTIwMTMlMjBwcm98ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1632661674596-618e45e56c53?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YXBwbGUlMjBwaG9uZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    ],
+    "url": "https://www.tiendasdaka.com.ve/producto/iphone-13-pro"
+  },
+  {
+    "nombre_producto": "Nokia 105",
+    "descripcion": "Teléfono básico con batería de larga duración y linterna",
+    "views": 65,
+    "precio_bs": 850.0,
+    "disponible": true,
+    "sub_categoria": "Teléfonos básicos",
+    "marca": "Nokia",
+    "Sucursal": "Tiendas Daka Valera",
+    "imagen": [
+      "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bm9raWElMjBwaG9uZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YmFzaWMlMjBwaG9uZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    ],
+    "url": "https://www.tiendasdaka.com.ve/producto/nokia-105"
+  },
+  {
+    "nombre_producto": "Funda para iPhone",
+    "descripcion": "Funda protectora resistente a golpes para iPhone 11/12/13",
+    "views": 91,
+    "precio_bs": 180.0,
+    "disponible": true,
+    "sub_categoria": "Accesorios para móviles",
+    "marca": "Generico",
+    "Sucursal": "Tiendas Daka Valera",
+    "imagen": [
+      "https://images.unsplash.com/photo-1609081219090-a6d81d3085bf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGhvbmUlMjBjYXNlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1609081219090-a6d81d3085bf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bW9iaWxlJTIwYWNjZXNzb3JpZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+    ],
+    "url": "https://www.tiendasdaka.com.ve/producto/funda-iphone"
+  },
+  {
+    "nombre_producto": "Apple Watch Series 7",
+    "descripcion": "Smartwatch Apple Watch Series 7 GPS, 45mm, aluminio",
+    "views": 76,
+    "precio_bs": 3800.0,
+    "disponible": true,
+    "sub_categoria": "Smartwatches",
+    "marca": "Apple",
+    "Sucursal": "Tiendas Daka Valera",
+    "imagen": [
+      "https://images.unsplash.com/photo-1633464899906-15f2f4fb3f8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YXBwbGUlMjB3YXRjaHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1633464899906-15f2f4fb3f8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c21hcnR3YXRjaHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    ],
+    "url": "https://www.tiendasdaka.com.ve/producto/apple-watch-7"
+  },
+{
+    "nombre_producto": "iPad Air 5",
+    "descripcion": "Tablet iPad Air 5 con chip M1, 64GB, Wi-Fi, 10.9 pulgadas",
+    "views": 68,
+    "precio_bs": 4200.0,
+    "disponible": true,
+    "sub_categoria": "Tablets",
+    "marca": "Apple",
+    "Sucursal": "Tiendas Daka Valera",
+    "imagen": [
+      "https://images.unsplash.com/photo-1649733484872-1c4586864772?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aXBhZCUyMGFpcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1649733484872-1c4586864772?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dGFibGV0fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+    ],
+    "url": "https://www.tiendasdaka.com.ve/producto/ipad-air-5"
+  },
+  {
+    "nombre_producto": "Samsung TV 55\" 4K",
+    "descripcion": "Televisor Samsung 55 pulgadas, 4K UHD, Smart TV, Crystal Display",
+    "views": 94,
+    "precio_bs": 6500.0,
+    "disponible": true,
+    "sub_categoria": "Televisores LED",
+    "marca": "Samsung",
+    "Sucursal": "Tiendas Daka Valera",
+    "imagen": [
+      "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2Ftc3VuZyUyMHR2fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bGVkJTIwdHZ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+    ],
+    "url": "https://www.tiendasdaka.com.ve/producto/samsung-tv-55"
+  },
+  {
+    "nombre_producto": "LG OLED 65\"",
+    "descripcion": "Televisor LG OLED 65 pulgadas, 4K, Smart TV, AI ThinQ",
+    "views": 82,
+    "precio_bs": 8900.0,
+    "disponible": true,
+    "sub_categoria": "Televisores OLED",
+    "marca": "LG",
+    "Sucursal": "Tiendas Daka Valera",
+    "imagen": [
+      "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bGclMjB0dnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8b2xlZCUyMHR2fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+    ],
+    "url": "https://www.tiendasdaka.com.ve/producto/lg-oled-65"
+  },
+  {
+    "nombre_producto": "Soporte TV Muro",
+    "descripcion": "Soporte mural para televisores de 32-65 pulgadas, ajustable",
+    "views": 57,
+    "precio_bs": 450.0,
+    "disponible": true,
+    "sub_categoria": "Accesorios TV",
+    "marca": "Generico",
+    "Sucursal": "Tiendas Daka Valera",
+    "imagen": [
+      "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dHIlMjBtb3VudHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dHIlMjBhY2Nlc3Nvcmllc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    ],
+    "url": "https://www.tiendasdaka.com.ve/producto/soporte-tv-muro"
+  },
+  {
+    "nombre_producto": "Soundbar Samsung",
+    "descripcion": "Barra de sonido Samsung 2.1 canales, subwoofer inalámbrico, Bluetooth",
+    "views": 63,
+    "precio_bs": 1850.0,
+    "disponible": true,
+    "sub_categoria": "Sistemas de sonido",
+    "marca": "Samsung",
+    "Sucursal": "Tiendas Daka Valera",
+    "imagen": [
+      "https://images.unsplash.com/photo-1546435770-a3e426bf472b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c291bmRiYXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1546435770-a3e426bf472b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG9tZSUyMHRoZWF0ZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+    ],
+    "url": "https://www.tiendasdaka.com.ve/producto/soundbar-samsung"
+  },
+  {
+    "nombre_producto": "Hamburguesa Doble Queso",
+    "descripcion": "Hamburguesa con doble carne, doble queso, tocino y salsa especial",
+    "views": 108,
+    "precio_bs": 480.0,
+    "disponible": true,
+    "sub_categoria": "Hamburguesas",
+    "marca": "Generico",
+    "Sucursal": "Tiendas Daka Valera",
+    "imagen": [
+      "https://images.unsplash.com/photo-1553979459-d2229ba7433b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZG91YmxlJTIwYnVyZ2VyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1553979459-d2229ba7433b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2hlZXNlYnVyZ2VyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+    ],
+    "url": "https://www.tiendasdaka.com.ve/producto/hamburguesa-doble-queso"
+  },
+  {
+    "nombre_producto": "Pizza Hawaiana",
+    "descripcion": "Pizza con piña, jamón, queso mozzarella y salsa de tomate",
+    "views": 92,
+    "precio_bs": 520.0,
+    "disponible": true,
+    "sub_categoria": "Pizzas",
+    "marca": "Generico",
+    "Sucursal": "Tiendas Daka Valera",
+    "imagen": [
+      "https://images.unsplash.com/photo-1604382355076-af4b0eb60143?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aGF3YWlpYW4lMjBwaXp6YXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1604382355076-af4b0eb60143?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGl6emElMjBzbGljZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    ],
+    "url": "https://www.tiendasdaka.com.ve/producto/pizza-hawaiana"
+  },
+  {
+    "nombre_producto": "Sandwich Club",
+    "descripcion": "Sandwich triple con pollo, tocino, lechuga, tomate y mayonesa",
+    "views": 74,
+    "precio_bs": 380.0,
+    "disponible": true,
+    "sub_categoria": "Sandwiches",
+    "marca": "Generico",
+    "Sucursal": "Tiendas Daka Valera",
+    "imagen": [
+      "https://images.unsplash.com/photo-1502741224143-90386d7f8c82?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2x1YiUyMHNhbmR3aWNofGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1502741224143-90386d7f8c82?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c2FuZHdpY2hlc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    ],
+    "url": "https://www.tiendasdaka.com.ve/producto/sandwich-club"
+  },
+  {
+    "nombre_producto": "Alitas BBQ",
+    "descripcion": "Alitas de pollo bañadas en salsa BBQ, acompañadas de apio y aderezo",
+    "views": 86,
+    "precio_bs": 420.0,
+    "disponible": true,
+    "sub_categoria": "Alitas",
+    "marca": "Generico",
+    "Sucursal": "Tiendas Daka Valera",
+    "imagen": [
+      "https://images.unsplash.com/photo-1567620832903-9fc6debc209f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YmJxJTIwd2luZ3N8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1567620832903-9fc6debc209f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2hpY2tlbiUyMHdpbmdzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+    ],
+    "url": "https://www.tiendasdaka.com.ve/producto/alitas-bbq"
+  },
+  {
+    "nombre_producto": "Tacos Mexicanos",
+    "descripcion": "Tacos de carne res, con cebolla, cilantro y salsa picante",
+    "views": 79,
+    "precio_bs": 360.0,
+    "disponible": true,
+    "sub_categoria": "Comida mexicana",
+    "marca": "Generico",
+    "Sucursal": "Tiendas Daka Valera",
+    "imagen": [
+      "https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dGFjb3N8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWV4aWNhbiUyMGZvb2R8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+    ],
+    "url": "https://www.tiendasdaka.com.ve/producto/tacos-mexicanos"
+  },
+  {
+    "nombre_producto": "Zapatos Formales Negros",
+    "descripcion": "Zapatos de vestir negros de cuero genuino, suela de goma",
+    "views": 64,
+    "precio_bs": 1950.0,
+    "disponible": true,
+    "sub_categoria": "Zapatos formales",
+    "marca": "Generico",
+    "Sucursal": "Tiendas Daka Valera",
+    "imagen": [
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Zm9ybWFsJTIwc2hvZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bGVhdGhlciUyMHNob2VzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+    ],
+    "url": "https://www.tiendasdaka.com.ve/producto/zapatos-formales-negros"
+  },
+  {
+    "nombre_producto": "Sandalias de Playa",
+    "descripcion": "Sandalias cómodas para playa y piscina, resistentes al agua",
+    "views": 58,
+    "precio_bs": 320.0,
+    "disponible": true,
+    "sub_categoria": "Sandalias",
+    "marca": "Generico",
+    "Sucursal": "Tiendas Daka Valera",
+    "imagen": [
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2FuZGFsc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YmVhY2glMjBmb290d2VhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    ],
+    "url": "https://www.tiendasdaka.com.ve/producto/sandalias-playa"
+  },
+  {
+    "nombre_producto": "Botas de Cuero",
+    "descripcion": "Botas de cuero para hombre, resistentes al agua, suela antideslizante",
+    "views": 71,
+    "precio_bs": 2450.0,
+    "disponible": true,
+    "sub_categoria": "Botas",
+    "marca": "Generico",
+    "Sucursal": "Tiendas Daka Valera",
+    "imagen": [
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bGVhdGhlciUyMGJvb3RzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8d29yayUyMGJvb3RzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+    ],
+    "url": "https://www.tiendasdaka.com.ve/producto/botas-cuero"
+  },
+  {
+    "nombre_producto": "Tacones Altos",
+    "descripcion": "Tacones de aguja para mujer, 10 cm, color negro, punta cerrada",
+    "views": 83,
+    "precio_bs": 1650.0,
+    "disponible": true,
+    "sub_categoria": "Tacones",
+    "marca": "Generico",
+    "Sucursal": "Tiendas Daka Valera",
+    "imagen": [
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aGVlbHN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c3RpbGV0dG8lMjBoZWVsc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    ],
+    "url": "https://www.tiendasdaka.com.ve/producto/tacones-altos"
+  },
+  {
+    "nombre_producto": "Proteína Whey",
+    "descripcion": "Proteína de suero de leche, 2kg, sabor chocolate, 24g por servicio",
+    "views": 97,
+    "precio_bs": 2850.0,
+    "disponible": true,
+    "sub_categoria": "Proteínas",
+    "marca": "Generico",
+    "Sucursal": "Tiendas Daka Valera",
+    "imagen": [
+      "https://images.unsplash.com/photo-1597074866923-dc0589150358?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2hleSUyMHByb3RlaW58ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1597074866923-dc0589150358?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c3BvcnRzJTIwc3VwcGxlbWVudHN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+    ],
+    "url": "https://www.tiendasdaka.com.ve/producto/proteina-whey"
+  },
+  {
+    "nombre_producto": "Creatina Monohidratada",
+    "descripcion": "Creatina pura monohidratada, 300g, aumenta fuerza y rendimiento",
+    "views": 75,
+    "precio_bs": 1250.0,
+    "disponible": true,
+    "sub_categoria": "Creatina",
+    "marca": "Generico",
+    "Sucursal": "Tiendas Daka Valera",
+    "imagen": [
+      "https://images.unsplash.com/photo-1597074866923-dc0589150358?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y3JlYXRpbmV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1597074866923-dc0589150358?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Z3ltJTIwc3VwcGxlbWVudHN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+    ],
+    "url": "https://www.tiendasdaka.com.ve/producto/creatina-monohidratada"
+  },
+  {
+    "nombre_producto": "Multivitamínico Deportivo",
+    "descripcion": "Complejo vitamínico para deportistas, 60 tabletas, energía y recuperación",
+    "views": 62,
+    "precio_bs": 980.0,
+    "disponible": true,
+    "sub_categoria": "Vitaminas deportivas",
+    "marca": "Generico",
+    "Sucursal": "Tiendas Daka Valera",
+    "imagen": [
+      "https://images.unsplash.com/photo-1597074866923-dc0589150358?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bXVsdGl2aXRhbWlufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1597074866923-dc0589150358?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YXRobGV0ZSUyMHBpbGxzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+    ],
+    "url": "https://www.tiendasdaka.com.ve/producto/multivitaminico-deportivo"
+  },
+  {
+    "nombre_producto": "Quemador de Grasa",
+    "descripcion": "Suplemento termogénico para pérdida de peso, 60 cápsulas",
+    "views": 89,
+    "precio_bs": 1350.0,
+    "disponible": true,
+    "sub_categoria": "Quemadores de grasa",
+    "marca": "Generico",
+    "Sucursal": "Tiendas Daka Valera",
+    "imagen": [
+      "https://images.unsplash.com/photo-1597074866923-dc0589150358?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZmF0JTIwYnVybmVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1597074866923-dc0589150358?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8d2VpZ2h0JTIwbG9zcyUyMHBpbGxzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+    ],
+    "url": "https://www.tiendasdaka.com.ve/producto/quemador-grasa"
+  },
+  {
+    "nombre_producto": "BCAA Aminoácidos",
+    "descripcion": "Aminoácidos de cadena ramificada, recuperación muscular, sabor frutas",
+    "views": 73,
+    "precio_bs": 1550.0,
+    "disponible": true,
+    "sub_categoria": "Aminoácidos",
+    "marca": "Generico",
+    "Sucursal": "Tiendas Daka Valera",
+    "imagen": [
+      "https://images.unsplash.com/photo-1597074866923-dc0589150358?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YW1pbm9hY2lkc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1597074866923-dc0589150358?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YmNhYXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    ],
+    "url": "https://www.tiendasdaka.com.ve/producto/bcaa-aminoacidos"
+  },
+  {
+    "nombre_producto": "Base de Maquillaje",
+    "descripcion": "Base líquida de larga duración, cobertura media, tono natural",
+    "views": 96,
+    "precio_bs": 850.0,
+    "disponible": true,
+    "sub_categoria": "Maquillaje",
+    "marca": "Generico",
+    "Sucursal": "Tiendas Daka Valera",
+    "imagen": [
+      "https://images.unsplash.com/photo-1596462502278-27bfdc403348?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Zm91bmRhdGlvbiUyMG1ha2V1cHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1596462502278-27bfdc403348?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y29zbWV0aWNzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+    ],
+    "url": "https://www.tiendasdaka.com.ve/producto/base-maquillaje"
+  },
+  {
+    "nombre_producto": "Crema Hidratante Facial",
+    "descripcion": "Crema hidratante con ácido hialurónico para piel seca, 50ml",
+    "views": 84,
+    "precio_bs": 720.0,
+    "disponible": true,
+    "sub_categoria": "Cuidado facial",
+    "marca": "Generico",
+    "Sucursal": "Tiendas Daka Valera",
+    "imagen": [
+      "https://images.unsplash.com/photo-1596462502278-27bfdc403348?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZmFjaWFsJTIwbW9pc3R1cml6ZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1596462502278-27bfdc403348?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c2tpbmNhcmV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+    ],
+    "url": "https://www.tiendasdaka.com.ve/producto/crema-hidratante-facial"
+  },
+  {
+    "nombre_producto": "Loción Corporal",
+    "descripcion": "Loción hidratante para cuerpo, aroma a coco, 400ml, piel suave",
+    "views": 67,
+    "precio_bs": 580.0,
+    "disponible": true,
+    "sub_categoria": "Cuidado corporal",
+    "marca": "Generico",
+    "Sucursal": "Tiendas Daka Valera",
+    "imagen": [
+      "https://images.unsplash.com/photo-1596462502278-27bfdc403348?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Ym9keSUyMGxvdGlvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1596462502278-27bfdc403348?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c2tpbiUyMGNhcmV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+    ],
+    "url": "https://www.tiendasdaka.com.ve/producto/locion-corporal"
+  }
+]
